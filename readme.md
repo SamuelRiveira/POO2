@@ -5,8 +5,9 @@ https://docs.github.com/es/get-started/writing-on-github/getting-started-with-wr
 https://mermaid.js.org/syntax/classDiagram.html
 
 ---
-title: Animal example
+Animal example
 ---
+```mermaid graph;
 classDiagram
     note "From Duck till Zebra"
     Animal <|-- Duck
@@ -30,3 +31,4 @@ classDiagram
         +bool is_wild
         +run()
     }
+```
