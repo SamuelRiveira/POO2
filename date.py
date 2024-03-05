@@ -87,3 +87,8 @@ minMax = {
         "year": 2050
     }
 }
+
+
+if __name__ == "__main__":
+    pass
+    #Aquí va un código de prueba
