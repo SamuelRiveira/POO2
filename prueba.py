@@ -1,5 +1,6 @@
 from date import Date
 
-fecha = Date(4, 3, 2024)
+unDia = Date(4, 3, 2024)
 
-print(fecha.validarFecha())
+print(unDia.is_leap_year(2024))
+print(unDia.days_in_month(2, 2024))

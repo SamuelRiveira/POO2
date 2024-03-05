@@ -33,7 +33,7 @@ class Date:
     @staticmethod
     def days_in_month(month: int, year: int) -> int:
         days = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
-        if self.is_leap_year(year) and month == 2:
+        if Date.is_leap_year(year) and month == 2:     #No es self. porque anteriormente lo declara como un método estático --> #staticmethod
             return 29
         else:
             return days[month-1]
