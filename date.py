@@ -9,11 +9,26 @@ class Date:
         Ojo con los años bisiestos.
         El 1-1-1900 fue lunes.
         '''
-        ...
+        self.day = day
+        self.month = month
+        self.year = year
+    
+    def validarFecha():
+        day = input("Dame el día")
+        month = input("Dame el mes")
+        year = input("Dame el año")
+        if day == minMax["min"]["day"]:
+            print("puta")
 
     @staticmethod
     def is_leap_year(year: int) -> bool:
-        ...
+        resultado = False
+        if year % 4 == 0 and year % 100 != 0:
+            resultado = True
+        elif year % 400 == 0:
+            resultado == True
+
+        return resultado
 
     @staticmethod
     def days_in_month(month: int, year: int) -> int:
@@ -59,3 +74,16 @@ class Date:
 
     def __eq__(self, other) -> bool:
         ...
+
+minMax = {
+    "min":{
+        "day": 1,
+        "month": 1,
+        "year": 1900
+    },
+    "max":{
+        "day": 31,
+        "month": 12,
+        "year": 2050
+    }
+}
