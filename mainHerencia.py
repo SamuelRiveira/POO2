@@ -1,4 +1,3 @@
-from transporte import Transporte
 from guagua import Guagua
 
 def main():
