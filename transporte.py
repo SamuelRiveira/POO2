@@ -7,4 +7,4 @@ class Transporte:
         print(f"Moviendose a x: {x} metros y: {y} metros")
 
     def informacion(self):
-        print("Guaguas, tu aliado ágil y accesible para explorar ciudades y conectar comunidades. Comodidad, eficiencia y ecología en cada viaje. Descubre la libertad de movilidad sin complicaciones.")
+        print(f"ruedas: {self.ruedas} asientos: {self.asientos}")
