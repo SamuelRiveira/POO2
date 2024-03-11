@@ -1,0 +1,2 @@
+class Guagua(Transporte):
+    pass
