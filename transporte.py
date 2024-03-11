@@ -1,9 +1,9 @@
 class Transporte:
-    def __init__(self, ruedas, asientos):
+    def __init__(self, ruedas:int, asientos:int) -> None:
         self.ruedas = ruedas
         self.asientos = asientos
 
-    def desplazar(self, x, y):
+    def desplazar(self, x:int, y:int):
         print(f"Moviendose a x: {x} metros y: {y} metros")
 
     def informacion(self):
