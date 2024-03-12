@@ -5,4 +5,4 @@ def main()-> None:
     numero.convertir()
 
 if __name__ == "__main__":
-    main()     
+    main()
