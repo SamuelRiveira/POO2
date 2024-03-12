@@ -13,11 +13,11 @@ def main()-> None:
     bicicleta.info()
 
     #Camion
-    camion = Camion(8, "Negro")
+    camion = Automovil(8, "Negro")
     camion.info()
 
     #Moto
-    moto = Moto(2, "Naranja")
+    moto = Bicicleta(2, "Naranja")
     moto.info()
 
 if __name__ == "__main__":
