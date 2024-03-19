@@ -1,4 +1,4 @@
-from date import Date
+from Programación.POO3.date import Date
 
 unDia = Date(4, 3, 2024)
 
